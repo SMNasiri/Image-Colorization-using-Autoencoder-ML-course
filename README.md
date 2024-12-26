@@ -3,12 +3,6 @@ An image colorization project using an autoencoder model implemented in PyTorch.
 
 This project implements an autoencoder in PyTorch to perform image colorization. The goal is to colorize grayscale images by training the autoencoder on a dataset of landscape images. The model predicts the color components for each pixel based on its grayscale input.
 
-## Features
-- **Dataset Preparation**: The project uses a landscape dataset and splits it into training, validation, and test sets.
-- **Autoencoder Architecture**: The autoencoder is designed and trained using PyTorch.
-- **Visualization**: Grayscale, ground truth color images, and the autoencoder's predictions are visualized for the test set.
-- **Performance Monitoring**: Learning curves are plotted to monitor the model's performance during training.
-
 ## Project Workflow
 1. **Data Preparation**:  
    - Load and preprocess the dataset.  
